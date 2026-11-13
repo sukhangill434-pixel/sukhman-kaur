@@ -1,0 +1,68 @@
+
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f0f4ff;
+    color: #333;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background: #24292f;
+    color: white;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 32px;
+}
+
+/* Main Content */
+main {
+    padding: 60px 20px;
+}
+
+main h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+main p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* Button */
+button {
+    background: #0969da;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #0550ae;
+    transform: scale(1.05);
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 24px;
+    }
+
+    main {
+        padding: 35px 15px;
+    }
+}
